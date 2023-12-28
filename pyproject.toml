@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "test-django"
+version = "1.0.0.0.1"
+description = ""
+authors = ["Alexander <alexshvedov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "3.2"
+python-dotenv = "0.20.0"
+django-debug-toolbar = "3.4.0"
+django-split-settings = "1.1.0"
+django-cors-headers = "3.13.0"
+psycopg2 = "2.9.3"
+djangorestframework = "^3.14.0"
+drf-spectacular = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

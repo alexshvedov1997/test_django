@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-28 11:35-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: admin_models/admin_contracts.py:26 custom_models/products.py:30
+msgid "Products"
+msgstr "Продукты"
+
+#: custom_models/contract.py:10
+msgid "Contract number"
+msgstr "Номер контракта"
+
+#: custom_models/contract.py:14 custom_models/products.py:21
+msgid "Description"
+msgstr "Описание"
+
+#: custom_models/contract.py:20
+msgid "Contract"
+msgstr "Контракт"
+
+#: custom_models/contract.py:21
+msgid "Contracts"
+msgstr "Контракты"
+
+#: custom_models/contract.py:27
+msgid "Application number"
+msgstr "Номер заяки"
+
+#: custom_models/contract.py:45
+msgid "Contract application"
+msgstr "Заявки на контракт"
+
+#: custom_models/contract.py:46
+msgid "Contracts Application"
+msgstr "Заявки на контракт"
+
+#: custom_models/mixins.py:6
+msgid "Created date"
+msgstr "Дата создания"
+
+#: custom_models/mixins.py:7
+msgid "Modified date"
+msgstr "Дата обновления"
+
+#: custom_models/products.py:8
+msgid "Brand name"
+msgstr "Наименование бренда"
+
+#: custom_models/products.py:11
+msgid "Brand"
+msgstr "Бренд"
+
+#: custom_models/products.py:12
+msgid "Brands"
+msgstr "Бренды"
+
+#: custom_models/products.py:20
+msgid "Product name"
+msgstr "Наименование продукта"
+
+#: custom_models/products.py:29
+msgid "Product"
+msgstr "Продукт"
