@@ -12,7 +12,7 @@ RUN  pip install --upgrade pip \
 
 COPY ./test_sf .
 ADD ./start.sh /
-ADD ./.env /
+COPY ./.env .
 RUN chmod +x /start.sh
 
 EXPOSE 8000

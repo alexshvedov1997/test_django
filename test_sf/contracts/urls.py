@@ -1,5 +1,4 @@
 from django.urls import path, include
-from contracts.api.v1.product_viewsets import BrandsViewSet
 
 app_name = "contracts_urls"
 

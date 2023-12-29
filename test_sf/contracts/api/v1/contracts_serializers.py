@@ -1,8 +1,9 @@
-from rest_framework import serializers
+from datetime import datetime
+
 from contracts.custom_models.contract import Contracts, ContractsApplication
 from contracts.custom_models.products import Products
-from datetime import datetime
 from contracts.utils.constants import DATETIME_FORMAT
+from rest_framework import serializers
 
 
 class ContractsSerializers(serializers.Serializer):
@@ -22,7 +23,6 @@ class ContractsSerializers(serializers.Serializer):
         contract_application_id = ContractsApplication.objects.create(
             application_number=self.generate_application_number(contract_id),
             contract_application_id=contract_id,
-
         )
         contract_application_id.product_ids.add(*product_ids)
         return contract_id

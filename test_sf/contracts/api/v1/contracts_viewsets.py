@@ -1,10 +1,9 @@
-from rest_framework import generics
 from contracts.api.v1.contracts_serializers import ContractsSerializers
-from drf_spectacular.utils import extend_schema
-from rest_framework import status
 from contracts.custom_models.contract import ContractsApplication
-from rest_framework.response import Response
 from django.db.models import F
+from drf_spectacular.utils import extend_schema
+from rest_framework import generics, status
+from rest_framework.response import Response
 
 
 @extend_schema(tags=["Contracts"])

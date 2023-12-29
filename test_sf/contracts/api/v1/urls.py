@@ -1,7 +1,7 @@
-from django.urls import path
+from contracts.api.v1.contracts_viewsets import (ContractsProductsViews,
+                                                 ContractsViewsCreate)
 from contracts.api.v1.product_viewsets import BrandsViewSet, ProductsViewSet
-from contracts.api.v1.contracts_viewsets import ContractsViewsCreate, ContractsProductsViews
-
+from django.urls import path
 
 urlpatterns = [
     path("brands/", BrandsViewSet.as_view({'post': 'create'})),

@@ -1,5 +1,5 @@
-from rest_framework import serializers
 from contracts.custom_models.products import Brands, Products
+from rest_framework import serializers
 
 
 class BrandsSerializer(serializers.ModelSerializer):

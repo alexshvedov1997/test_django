@@ -1,7 +1,8 @@
-from rest_framework import viewsets
 from contracts.custom_models.products import Brands, Products
-from .product_serializers import BrandsSerializer, ProductSerializer
 from drf_spectacular.utils import extend_schema
+from rest_framework import viewsets
+
+from .product_serializers import BrandsSerializer, ProductSerializer
 
 
 @extend_schema(tags=["Brands"])

@@ -1,6 +1,6 @@
+from contracts.custom_models.mixins import TimeStampedMixin
 from django.db import models
 from django.utils.translation import gettext_lazy as _
-from contracts.custom_models.mixins import TimeStampedMixin
 
 
 class Brands(TimeStampedMixin):
